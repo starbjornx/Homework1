@@ -1,0 +1,215 @@
+/* Universal effects all of the website html */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* This is the body of the HTML background color */
+body {
+  background-color: #d9dcd6;
+}
+/* header element selector, applying background color of light blue */
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/* h1 element inside the header, changing font size to 49px and defining it as a inline block. */
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/* changes the color of h1 inside the header Horiseo */
+header h1 .seo {
+  color: #d9dcd6;
+}
+/* This is the Navigation text and positioning of where you can click on the links and they take you to a certain part of the website */
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/* This is organizing the navigation bar */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* The a is Anchor of the website navigation bar changing its color to white. */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* changes the paragraph section font size */
+p {
+  font-size: 16px;
+}
+/* This is the size and positioning of the image assigned .hero */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* This is keeping the Social Media Marketing Header and Paragraph inside its margins. */
+.float-left {
+  float: left;
+  margin-right: 25px;
+  max-height: 200px;
+}
+/* This is keeping the Online reputation Management header and paragraph inside its margins */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* I dont believe this does anything */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Selecting a class benefits */
+.benefits {
+  margin-right: 20px;
+  padding: 14px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* Selecting a class el. This class is not used in the code
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}*/
+/* Selecting a class el. This class is not used in the code
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}*/
+/* Selecting a class el. editing placement between Lead Generation and image below*/
+.benefit h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Selecting a class el. */
+.benefit img {
+  display: block;
+  margin-bottom: 100px;
+  text-align: center;
+  max-height: 116px;
+}
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Selecting a class. This class is not used in the code
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}*/
+/* Selecting a class. This class is not used in the code
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*/
+/* Selecting a class. This class is not used in the code
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*/
+/* Selecting a class el. This class is not used in the code
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+/* Selecting a class el. This needed no edits*/
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* Selecting a class el. This needed no edits */
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* Selecting a class el. This neeeded no edits*/
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Selecting a class. Merged into one group. 
+.search-engine-optimization img {
+  max-height: 200px;
+}*/
+/* Selecting a class el.*/
+.online-reputation-management img,
+.social-media-marketing img,
+.search-engine-optimization img {
+  max-height: 200px;
+}
+/* Selecting a class. Merged into one group.
+.social-media-marketing img {
+  max-height: 200px;
+}*/
+/* Selecting a class el.These should be merged into one group 
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}*/
+/* Selecting a group of class el. These should be merged into one group.*/
+.online-reputation-management h2,
+.social-media-marketing h2,
+.search-engine-optimization h2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+/* Selecting a group of class el. These should be merged into one group 
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}*/
+/* Selecting a class el. inside the footer */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+/* Selecting a class el. inside the footer header2 */
+.footer h2 {
+  font-size: 20px;
+}
